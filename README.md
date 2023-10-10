@@ -1,6 +1,6 @@
 # Kayla Virrly
 # 2209116011
-Post test 2 praktikum peograman berorientasi objek dengan KONI sebagai studi kasus.
+Post test 2 praktikum peograman berorientasi objek dengan KONI sebagai tema.
 
 ## Daftar Isi
 
