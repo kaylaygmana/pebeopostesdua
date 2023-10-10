@@ -160,7 +160,8 @@ public final class Data{
 
 ## Main.java
 Kelas ini memiliki metode yang dapat memanipulasi data atau kelas inilah yang menentukan program berjalan dikarenakan metode CRUD berada paa kelas ini.
-`tambahDataKejuaraan`: Untuk menambah data kejuaraan, pilih menu `1. Tambah Data Kejuaraan` dan ikuti petunjuk untuk memasukkan nama kejuaraan, lokasi, dan cabang olahraga.
+
+`tambahDataKejuaraan`: Pilih menu `1. Tambah Data Kejuaraan` dan ikuti petunjuk untuk memasukkan nama kejuaraan, lokasi, dan cabang olahraga. Untuk menambah data kejuaraan. 
 
 `tampilDataKejuaraan`: Pilih menu `2. Lihat Data Kejuaraan` untuk melihat daftar data kejuaraan yang telah dimasukkan.
 
