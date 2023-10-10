@@ -160,13 +160,13 @@ public final class Data{
 
 ## Main.java
 Kelas ini memiliki metode yang dapat memanipulasi data atau kelas inilah yang menentukan program berjalan dikarenakan metode CRUD berada paa kelas ini.
-1. - `tambahDataKejuaraan`: Untuk menambah data kejuaraan, pilih menu `1. Tambah Data Kejuaraan` dan ikuti petunjuk untuk memasukkan nama kejuaraan, lokasi, dan cabang olahraga.
+`tambahDataKejuaraan`: Untuk menambah data kejuaraan, pilih menu `1. Tambah Data Kejuaraan` dan ikuti petunjuk untuk memasukkan nama kejuaraan, lokasi, dan cabang olahraga.
 
-2.- `tampilDataKejuaraan`: Pilih menu `2. Lihat Data Kejuaraan` untuk melihat daftar data kejuaraan yang telah dimasukkan.
+`tampilDataKejuaraan`: Pilih menu `2. Lihat Data Kejuaraan` untuk melihat daftar data kejuaraan yang telah dimasukkan.
 
-3.- `updateDataKejuaraan`: Pilih menu `3. Update Data Kejuaraan` untuk memperbarui data kejuaraan yang sudah ada. Ikuti petunjuk untuk memasukkan nomor data yang ingin diupdate dan data baru.
+`updateDataKejuaraan`: Pilih menu `3. Update Data Kejuaraan` untuk memperbarui data kejuaraan yang sudah ada. Ikuti petunjuk untuk memasukkan nomor data yang ingin diupdate dan data baru.
 
-4. - `hapusDataKejuaraan`: Pilih menu `4. Hapus Data Kejuaraan` untuk menghapus data kejuaraan yang sudah ada. Ikuti petunjuk untuk memasukkan nomor data yang ingin dihapus.
+`hapusDataKejuaraan`: Pilih menu `4. Hapus Data Kejuaraan` untuk menghapus data kejuaraan yang sudah ada. Ikuti petunjuk untuk memasukkan nomor data yang ingin dihapus.
 
 ## Data.java
 Kelas `Data` merupakan bagian dari proyek ini dan digunakan untuk merepresentasikan data kejuaraan olahraga. Kelas ini memiliki tiga atribut utama yang menyimpan informasi tentang kejuaraan olahraga: `namaKejuaraan`, `lokasi`, dan `cabangOlahraga`.
