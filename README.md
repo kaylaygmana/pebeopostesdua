@@ -16,8 +16,8 @@ Project ini berfokus pada CRUD data kejuaraan sehingga user dapat membuat baru d
 
 ## Main.java
   package com.mycompany.main\n
-  import Kejuaraan.Data
-  import java.util.ArrayList
+  import Kejuaraan.Data\n
+  \nimport java.util.ArrayList
   import java.util.Scanner
 
 public final class Main {
