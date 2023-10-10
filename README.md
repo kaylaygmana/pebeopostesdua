@@ -6,10 +6,10 @@ Post test 2 praktikum peograman berorientasi objek dengan KONI sebagai studi kas
 
 - [Tentang](#tentang)
 - [Main.java](#Main.java)
-  - [Data.java](#Data.java)
-  - [Penjelasan_program](#penjelasan_program)
-- [Main.java](Main.java)
 - [Data.java](#Data.java)
+- [Penjelasan_program](#penjelasan_program)
+  - [Penjelasan_Main.java](Main.java)
+  - [Penjelasan_Data.java](#Data.java)
 
 ## Tentang
 Project ini berfokus pada CRUD data kejuaraan sehingga user dapat membuat baru data kejuaraan, menampilkan mengubah hingga menghapus data kejuaraan.
@@ -159,7 +159,7 @@ public final class Data{
 ### Penjelasan program
 
 ## Main.java
-Kelas ini memiliki metode yang dapat memanipulasi data.
+Kelas ini memiliki metode yang dapat memanipulasi data atau kelas inilah yang menentukan program berjalan dikarenakan metode CRUD berada paa kelas ini.
 1. - `tambahDataKejuaraan`: Untuk menambah data kejuaraan, pilih menu `1. Tambah Data Kejuaraan` dan ikuti petunjuk untuk memasukkan nama kejuaraan, lokasi, dan cabang olahraga.
 
 2.- `tampilDataKejuaraan`: Pilih menu `2. Lihat Data Kejuaraan` untuk melihat daftar data kejuaraan yang telah dimasukkan.
