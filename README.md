@@ -7,7 +7,7 @@ Post test 2 praktikum peograman berorientasi objek dengan KONI sebagai studi kas
 - [Tentang](#tentang)
 - [Main.java](#Main.java)
   - [Data.java](#Data.java)
-  - [Penjelasan program](#penjelasan program)
+  - [Penjelasan_program](#penjelasan_program)
 - [Main.java](Main.java)
 - [Data.java](#Data.java)
 
@@ -15,10 +15,10 @@ Post test 2 praktikum peograman berorientasi objek dengan KONI sebagai studi kas
 Project ini berfokus pada CRUD data kejuaraan sehingga user dapat membuat baru data kejuaraan, menampilkan mengubah hingga menghapus data kejuaraan.
 
 ## Main.java
-package com.mycompany.main;
-import Kejuaraan.Data;
-import java.util.ArrayList;
-import java.util.Scanner;
+- `package com.mycompany.main`
+- `import Kejuaraan.Data`
+- `import java.util.ArrayList`
+- `import java.util.Scanner`
 
 public final class Main {
     public static void main(String[] args) {
