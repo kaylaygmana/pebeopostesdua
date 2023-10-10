@@ -1,8 +1,13 @@
-Nama : Kayla Virrly
-NIM : 2209116011
 
-Source Code
-main.java
+
+---
+Nama: "Kayla Virrly \U0001F41E"
+NIM: 2209116011
+
+---
+
+## Source Code
+### Main.java
 package com.mycompany.main;
 import Kejuaraan.Data;
 import java.util.ArrayList;
@@ -104,8 +109,7 @@ public final class Main {
     }
 }
 
-
-Data.java
+### Data.java
 package Kejuaraan;
 
 public final class Data{
@@ -143,3 +147,11 @@ public final class Data{
         this.cabangOlahraga = cabangOlahraga;
     }
 }
+
+
+### Environment
+ - OS: [e.g. Arch Linux]
+ - Other details that you think may affect.
+
+### Additional context
+Add any other context about the problem here.
