@@ -35,11 +35,11 @@ public final class Main {
 
     public static void tambahDataKejuaraan(final ArrayList<Data> daftarKejuaraan, final Scanner keyboard) {
         System.out.print("Nama Kejuaraan: ");
-        final String nama = keyboard.next();
+        final String nama = keyboard.nextLine();
         System.out.print("Lokasi: ");
-        final String lokasi = keyboard.next();
+        final String lokasi = keyboard.nextLine();
         System.out.print("Cabang Olahraga: ");
-        final String cabang = keyboard.next();
+        final String cabang = keyboard.nextLine();
 
         final Data kejuaraan = new Data(nama, lokasi, cabang);
         daftarKejuaraan.add(kejuaraan);
@@ -67,11 +67,11 @@ public final class Main {
         
         if (nomor >= 1 && nomor <= daftarKejuaraan.size()) {
             System.out.print("Nama Kejuaraan baru: ");
-            final String namaBaru = keyboard.next();
+            final String namaBaru = keyboard.nextLine();
             System.out.print("Lokasi baru: ");
-            final String lokasiBaru = keyboard.next();
+            final String lokasiBaru = keyboard.nextLine();
             System.out.print("Cabang Olahraga baru: ");
-            final String cabangBaru = keyboard.next();
+            final String cabangBaru = keyboard.nextLine();
 
             final Data kejuaraan = daftarKejuaraan.get(nomor - 1);
             kejuaraan.setNamaKejuaraan(namaBaru);
