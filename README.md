@@ -214,4 +214,12 @@ Tampilan apabila user memilih menu 3 untuk menghapus data kejuaraan. User akan d
 
 Tampilan data setelah proses hapus data.
 
+## Keluar
+![Screenshot (216)](https://github.com/kaylaygmana/pebeopostesdua/assets/126877526/894ffbe3-c039-4ef9-958f-dad22b4018ee)
+Tampilan apabila user memilih menu 4 untuk keluar progam.
+
+## Salah input
+![Screenshot (217)](https://github.com/kaylaygmana/pebeopostesdua/assets/126877526/4097f4bf-afe8-43d2-822f-c2649d7c3389)
+Tampilan apabila user memasukkan menu yang tidak terdaftar. Program akan mengulan output menu.
+
 
