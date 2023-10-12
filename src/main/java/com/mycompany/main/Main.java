@@ -27,7 +27,9 @@ public final class Main {
                 updateDataKejuaraan(daftarKejuaraan, keyboard);
             } else if (pilihan == 4) {
                 hapusDataKejuaraan(daftarKejuaraan, keyboard);
-            }
+            } else
+                System.out.println("MENU TIDAK TERSEDIA!");
+            
         } while (pilihan != 0);
 
         System.out.println("Program selesai.");
