@@ -204,8 +204,11 @@ Tampilan setelah data terupdate.
 
 ## Hapus Data
 ![hapus kejuaraan](https://github.com/kaylaygmana/pebeopostesdua/assets/126877526/a0fcef88-bc09-4b4d-9eb8-4b1f9ea07974)
+
 Tampilan apabila user memilih menu 3 untuk menghapus data kejuaraan. User akan diminta input kode urutan data yang ingin dihapus
+
 ![hasil hapus kejuaraan](https://github.com/kaylaygmana/pebeopostesdua/assets/126877526/b956b0da-dec9-4e49-8e91-aee512a7c6fa)
+
 Tampilan data setelah proses hapus data.
 
 
