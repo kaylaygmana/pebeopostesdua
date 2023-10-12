@@ -16,10 +16,10 @@ Post test 2 praktikum peograman berorientasi objek dengan KONI sebagai tema.
 Project ini berfokus pada CRUD data kejuaraan sehingga user dapat membuat baru data kejuaraan, menampilkan mengubah hingga menghapus data kejuaraan.
 
 ## Main.java
-  package com.mycompany.main
-  import Kejuaraan.Data
-  import java.util.ArrayList
-  import java.util.Scanner
+  package com.mycompany.main;
+import Kejuaraan.Data;
+import java.util.ArrayList;
+import java.util.Scanner;
 
 public final class Main {
     public static void main(String[] args) {
@@ -36,6 +36,7 @@ public final class Main {
             System.out.println("0. Keluar");
             System.out.print("Pilih menu: ");
             pilihan = keyboard.nextInt();
+            keyboard.nextLine();
 
             if (pilihan == 1) {
                 tambahDataKejuaraan(daftarKejuaraan, keyboard);
@@ -45,7 +46,9 @@ public final class Main {
                 updateDataKejuaraan(daftarKejuaraan, keyboard);
             } else if (pilihan == 4) {
                 hapusDataKejuaraan(daftarKejuaraan, keyboard);
-            }
+            } else
+                System.out.println("MENU TIDAK TERSEDIA!");
+            
         } while (pilihan != 0);
 
         System.out.println("Program selesai.");
@@ -53,11 +56,11 @@ public final class Main {
 
     public static void tambahDataKejuaraan(final ArrayList<Data> daftarKejuaraan, final Scanner keyboard) {
         System.out.print("Nama Kejuaraan: ");
-        final String nama = keyboard.next();
+        final String nama = keyboard.nextLine();
         System.out.print("Lokasi: ");
-        final String lokasi = keyboard.next();
+        final String lokasi = keyboard.nextLine();
         System.out.print("Cabang Olahraga: ");
-        final String cabang = keyboard.next();
+        final String cabang = keyboard.nextLine();
 
         final Data kejuaraan = new Data(nama, lokasi, cabang);
         daftarKejuaraan.add(kejuaraan);
@@ -82,14 +85,15 @@ public final class Main {
         tampilDataKejuaraan(daftarKejuaraan);
         System.out.print("Masukkan nomor data yang ingin diupdate: ");
         final int nomor = keyboard.nextInt();
+        keyboard.nextLine();
         
         if (nomor >= 1 && nomor <= daftarKejuaraan.size()) {
             System.out.print("Nama Kejuaraan baru: ");
-            final String namaBaru = keyboard.next();
+            final String namaBaru = keyboard.nextLine();
             System.out.print("Lokasi baru: ");
-            final String lokasiBaru = keyboard.next();
+            final String lokasiBaru = keyboard.nextLine();
             System.out.print("Cabang Olahraga baru: ");
-            final String cabangBaru = keyboard.next();
+            final String cabangBaru = keyboard.nextLine();
 
             final Data kejuaraan = daftarKejuaraan.get(nomor - 1);
             kejuaraan.setNamaKejuaraan(namaBaru);
@@ -107,6 +111,7 @@ public final class Main {
         tampilDataKejuaraan(daftarKejuaraan);
         System.out.print("Masukkan nomor data yang ingin dihapus: ");
         final int nomor = keyboard.nextInt();
+        keyboard.nextLine();
         
         if (nomor >= 1 && nomor <= daftarKejuaraan.size()) {
             final Data kejuaraan = daftarKejuaraan.remove(nomor - 1);
