@@ -198,8 +198,11 @@ Tampilan apabila user memilih menu 2 untuk menampilkan data. Pada gambar diatas 
 
 ## Update Data
 ![update kejuaran](https://github.com/kaylaygmana/pebeopostesdua/assets/126877526/e5e75137-1b44-4077-9c47-97fbefc04713)
+
 Tampilan apabila user memilih menu 3 untuk memperbaharui data. User akan diminta untuk menginputkan kode urutan data yang ingin di update lalu diminta untuk memasukkan nama kejuaraan baru, lokasi baru dan cabang olahraga baru.
+
 ![tampil hasil update](https://github.com/kaylaygmana/pebeopostesdua/assets/126877526/1156232b-41f6-4079-bb2a-4de4b749ce5d)
+
 Tampilan setelah data terupdate.
 
 ## Hapus Data
