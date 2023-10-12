@@ -10,6 +10,7 @@ Post test 2 praktikum peograman berorientasi objek dengan KONI sebagai tema.
 - [Penjelasan_program](#penjelasan_program)
   - [Penjelasan_Main.java](Main.java)
   - [Penjelasan_Data.java](#Data.java)
+- [Penjelasan_Output]
 
 ## Tentang
 Project ini berfokus pada CRUD data kejuaraan sehingga user dapat membuat baru data kejuaraan, menampilkan mengubah hingga menghapus data kejuaraan.
@@ -181,3 +182,30 @@ Kelas `Data` merupakan bagian dari proyek ini dan digunakan untuk merepresentasi
 # Konstruktor
 
 Kelas `Data` memiliki konstruktor yang digunakan untuk membuat objek `Data`. Konstruktor ini menerima tiga parameter yang akan digunakan untuk menginisialisasi atribut-atribut di atas.
+
+### Penjelasan program
+## Menu utama
+![menu_utama](https://github.com/kaylaygmana/pebeopostesdua/assets/126877526/5a21d196-f73b-4762-a601-687cdcf66132)
+Tampilan awal saat user menggunakan program. User diminta untuk input menu yang ingin dioperasikan melalui kode menu.
+
+## Tambah Data
+![tambah kejuaraan](https://github.com/kaylaygmana/pebeopostesdua/assets/126877526/58e87a31-44da-400f-b607-5e06c88b3d9b)
+Tampilan apabila user meminilih menu 1 untuk menambah data. User akan diminta untuk menginput nama kejuaraan, lokasi dan cabor.
+
+## Lihat Data
+![tampil kejuaraan](https://github.com/kaylaygmana/pebeopostesdua/assets/126877526/fd61a71b-34c0-41d0-aa65-0c3e29acae21)
+Tampilan apabila user memilih menu 2 untuk menampilkan data. Pada gambar diatas user telah memasukkan 3 data kejuaraan.
+
+## Update Data
+![update kejuaran](https://github.com/kaylaygmana/pebeopostesdua/assets/126877526/e5e75137-1b44-4077-9c47-97fbefc04713)
+Tampilan apabila user memilih menu 3 untuk memperbaharui data. User akan diminta untuk menginputkan kode urutan data yang ingin di update lalu diminta untuk memasukkan nama kejuaraan baru, lokasi baru dan cabang olahraga baru.
+![tampil hasil update](https://github.com/kaylaygmana/pebeopostesdua/assets/126877526/1156232b-41f6-4079-bb2a-4de4b749ce5d)
+Tampilan setelah data terupdate.
+
+## Hapus Data
+![hapus kejuaraan](https://github.com/kaylaygmana/pebeopostesdua/assets/126877526/a0fcef88-bc09-4b4d-9eb8-4b1f9ea07974)
+Tampilan apabila user memilih menu 3 untuk menghapus data kejuaraan. User akan diminta input kode urutan data yang ingin dihapus
+![hasil hapus kejuaraan](https://github.com/kaylaygmana/pebeopostesdua/assets/126877526/b956b0da-dec9-4e49-8e91-aee512a7c6fa)
+Tampilan data setelah proses hapus data.
+
+
